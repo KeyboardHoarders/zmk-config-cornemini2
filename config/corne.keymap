@@ -96,19 +96,19 @@
             // |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |
             // |  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |   home-row mods
             // |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  |
-            //         | TAB | BSPC | ESC/NAV |  | ENT | SPC | SYM |
+            //         | TAB | ENT | ESC/NAV |   | BSPC | SPC | SYM |
             bindings = <
 &trans  &kp Q        &kp W        &kp E         &kp R         &kp T         &kp Y      &kp U          &kp I          &kp O         &kp P            &trans
 &trans  &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G         &kp H      &hmr RSHFT J   &hmr RCTRL K   &hmr RALT L   &hmr RGUI SEMI   &trans
 &trans  &kp Z        &kp X        &kp C         &kp V         &kp B         &kp N      &kp M          &kp COMMA      &kp DOT       &kp FSLH         &trans
-                                  &kp TAB       &kp BSPC      &lt NAV ESC   &kp RET    &kp SPACE      &mo SYM
+                                  &kp TAB       &kp RET       &lt NAV ESC   &kp BSPC   &kp SPACE      &mo SYM
             >;
 
             /* FALLBACK ONLY -- if home-row mods genuinely fight you, swap this row in:
 &trans  &kp A  &kp S  &kp D  &kp F  &kp G   &kp H  &kp J  &kp K  &kp L  &kp SEMI  &trans
                ...but Shift then has nowhere to live (no pinky column, no thumb row on
                this board), so you must ALSO move Shift onto a thumb in the same edit:
-                       &mt LSHFT TAB   &kp BSPC   &lt NAV ESC
+                       &mt LSHFT TAB   &kp RET   &lt NAV ESC
                Capitals via a layer hold is not a workable typing experience. */
         };
 
