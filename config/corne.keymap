@@ -74,10 +74,6 @@
             key-positions = <13 29>;
         };
 
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <15 21>;
-        };
 
         perc {
             bindings = <&kp PERCENT>;
@@ -204,7 +200,7 @@
             bindings = <
 &trans  &kp ESC       &trans        &trans        &kp END       &kp HOME           &kp N6   &kp N7        &kp N8       &kp N9        &kp N0  &trans
 &trans  &hm LGUI A  &hm LSHFT S  &hm LALT UP_ARROW  &hm LCTRL DEL    &kp PAGE_UP      &kp N0   &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &hm RGUI PAGE_UP  &trans
-&trans  &kp DEL       &kp LEFT      &kp DOWN           &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1        &kp N2       &kp N3        &kp PAGE_DOWN  &trans
+&trans  &kp DEL       &kp LEFT      &kp DOWN           &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1        &kp N2       &kp N3        &kp DELETE  &trans
                           &kp LGUI      &trans           &kp SPACE        &kp RET  &mo 3        &trans
             >;
         };
